@@ -1,13 +1,13 @@
 # order-planing
 
  
-**Problem Overview ** 
+**Problem Overview** 
  
 A  Manufacturing  company  has  various  warehouses  in  multiple  cities.  When  an  order  for  a 
 product is placed by their customers, the company wants to make sure the order is picked up 
 from the warehouse that is closest to the customers location and containing the product. 
  
-**Ask **
+**Ask**
  
 Build a microservice with a REST API based interface to solve the above problem. There should 
 be at least two key APIs one for adding of a new customer and the other to place of an order. 
@@ -15,7 +15,7 @@ The order placement API in the response should indicate from which warehouse the
 would be delivered and the time/distance for arrival. The expectation is that the response time 
 of order placement is fairly quick (< 500ms).  
  
-**Assumptions **
+**Assumptions**
  
 Assume that the distance/time between the customers city/location and warehouse is provided 
 when customer is setup. The system would compute the using the data that is provided during 
